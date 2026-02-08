@@ -1,0 +1,27 @@
+{
+  "name": "botfiles",
+  "version": "1.0.0",
+  "description": "A curated collection of Claude Code plugins for Zig, Elixir/Phoenix, infrastructure operations, and developer workflow tools.",
+  "plugins": [
+    {
+      "name": "zig-dev",
+      "path": "plugins/zig-dev",
+      "description": "Zig development skills: style enforcement, memory leak detection, safety checking, error handling, and API reference."
+    },
+    {
+      "name": "elixir-phoenix",
+      "path": "plugins/elixir-phoenix",
+      "description": "Elixir and Phoenix development skills: framework guidelines, LiveView patterns, Ecto best practices, HEEx templates, testing, and Tailwind CSS v4."
+    },
+    {
+      "name": "infra-ops",
+      "path": "plugins/infra-ops",
+      "description": "Infrastructure operations skills: Terraform safety, Docker Swarm patterns, Ansible operations, and repeatable deployment philosophy."
+    },
+    {
+      "name": "workflow-tools",
+      "path": "plugins/workflow-tools",
+      "description": "Developer workflow skills: commit message conventions, Beads issue tracking, and session completion protocols."
+    }
+  ]
+}
