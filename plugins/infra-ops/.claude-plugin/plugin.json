@@ -1,11 +1,5 @@
 {
   "name": "infra-ops",
   "version": "1.0.0",
-  "description": "Infrastructure operations skills covering Terraform safety practices, Docker Swarm deployment patterns, Ansible operations with secret management, and repeatable deployment philosophy.",
-  "skills": [
-    "skills/terraform-safety/SKILL.md",
-    "skills/docker-swarm/SKILL.md",
-    "skills/ansible-ops/SKILL.md",
-    "skills/repeatable-deployments/SKILL.md"
-  ]
+  "description": "Infrastructure operations skills covering Terraform safety practices, Docker Swarm deployment patterns, Ansible operations with secret management, and repeatable deployment philosophy."
 }

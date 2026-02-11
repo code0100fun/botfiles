@@ -1,10 +1,5 @@
 {
   "name": "workflow-tools",
   "version": "1.0.0",
-  "description": "Developer workflow skills covering commit message conventions, Beads issue tracking, and session completion protocols.",
-  "skills": [
-    "skills/commit-message-guide/SKILL.md",
-    "skills/beads-issue-tracker/SKILL.md",
-    "skills/session-completion/SKILL.md"
-  ]
+  "description": "Developer workflow skills covering commit message conventions, Beads issue tracking, and session completion protocols."
 }

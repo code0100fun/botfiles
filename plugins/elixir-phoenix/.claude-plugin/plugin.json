@@ -1,14 +1,5 @@
 {
   "name": "elixir-phoenix",
   "version": "1.0.0",
-  "description": "Elixir and Phoenix development skills covering framework conventions, LiveView patterns, Ecto best practices, HEEx template rules, testing with Ecto.SQL.Sandbox, and Tailwind CSS v4.",
-  "skills": [
-    "skills/phoenix-guidelines/SKILL.md",
-    "skills/elixir-guidelines/SKILL.md",
-    "skills/ecto-guidelines/SKILL.md",
-    "skills/liveview-guidelines/SKILL.md",
-    "skills/heex-templates/SKILL.md",
-    "skills/elixir-testing/SKILL.md",
-    "skills/tailwind-v4/SKILL.md"
-  ]
+  "description": "Elixir and Phoenix development skills covering framework conventions, LiveView patterns, Ecto best practices, HEEx template rules, testing with Ecto.SQL.Sandbox, and Tailwind CSS v4."
 }

@@ -1,12 +1,5 @@
 {
   "name": "zig-dev",
   "version": "1.0.0",
-  "description": "Zig development skills covering style enforcement, memory leak detection, safety checking, error handling validation, and Zig 0.15 ArrayList API reference.",
-  "skills": [
-    "skills/zig-style-enforcer/SKILL.md",
-    "skills/memory-leak-detector/SKILL.md",
-    "skills/safety-checker/SKILL.md",
-    "skills/error-handling-validator/SKILL.md",
-    "skills/zig-arraylist/SKILL.md"
-  ]
+  "description": "Zig development skills covering style enforcement, memory leak detection, safety checking, error handling validation, and Zig 0.15 ArrayList API reference."
 }
