@@ -59,6 +59,29 @@ socket =
 - Don't use `String.to_atom/1` on user input (memory leak risk)
 - Predicate function names should not start with `is_` and should end in a question mark. Names like `is_thing` should be reserved for guards
 
+## Error Handling
+
+- **Avoid `try/rescue`** — it is an anti-pattern in Elixir. Use `{:ok, result}` / `{:error, reason}` tuples and pattern matching instead
+- Use non-bang functions (`Repo.get/2`, `File.read/1`) and match on the result rather than bang functions (`Repo.get!/2`) wrapped in `try/rescue`
+- `rescue` should only be used at true system boundaries (e.g., NIF calls, third-party libraries that raise instead of returning error tuples) where no tuple-based alternative exists
+- If a function only has a bang variant, wrap it in a helper that returns `{:ok, val} | {:error, reason}` once, then use that everywhere
+
+```elixir
+# BAD: using try/rescue for control flow
+try do
+  agent = Agents.get_agent!(id)
+  do_something(agent)
+rescue
+  Ecto.NoResultsError -> :not_found
+end
+
+# GOOD: pattern matching on result tuples
+case Agents.get_agent(id) do
+  {:ok, agent} -> do_something(agent)
+  {:error, :not_found} -> :not_found
+end
+```
+
 ## OTP Patterns
 
 - Elixir's builtin OTP primitives like `DynamicSupervisor` and `Registry` require names in the child spec:
