@@ -14,9 +14,9 @@ This repository is a Claude Code plugin marketplace. It contains curated, genera
 Install individual plugins or the entire marketplace:
 
 ```bash
-# Install a single plugin
-/plugin install /path/to/botfiles/plugins/zig-dev
+# Install from the marketplace
+/plugin marketplace add code0100fun/botfiles
 
-# Or install from the marketplace
-/plugin marketplace add /path/to/botfiles
+# Or install a single plugin
+/plugin install code0100fun/botfiles/plugins/zig-dev
 ```
