@@ -20,9 +20,9 @@ Infrastructure operations skills covering Terraform safety practices, Docker Swa
 **Skills:** `terraform-safety` `docker-swarm` `ansible-ops` `repeatable-deployments`
 
 ### workflow-tools
-Developer workflow skills covering commit message conventions, Beads issue tracking, and session completion protocols.
+Developer workflow skills covering commit message conventions, Bees issue tracking, and session completion protocols.
 
-**Skills:** `commit-message-guide` `beads-issue-tracker` `session-completion`
+**Skills:** `commit-message-guide` `bees-issue-tracker` `session-completion`
 
 ## Install
 

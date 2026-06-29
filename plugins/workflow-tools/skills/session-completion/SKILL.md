@@ -38,7 +38,7 @@ git add <specific files>
 git commit -m "message"
 ```
 
-If using an issue tracker that stores files in the repo (e.g., Beads), sync those changes too.
+If using an issue tracker that stores files in the repo (e.g., Bees), sync those changes too.
 
 ### 5. Hand Off Context
 

@@ -25,7 +25,7 @@
     {
       "name": "workflow-tools",
       "source": "./plugins/workflow-tools",
-      "description": "Developer workflow skills: commit message conventions, Beads issue tracking, and session completion protocols."
+      "description": "Developer workflow skills: commit message conventions, Bees issue tracking, and session completion protocols."
     }
   ]
 }
