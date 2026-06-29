@@ -1,0 +1,5 @@
+{
+  "name": "mise",
+  "version": "1.0.0",
+  "description": "Using mise (mise-en-place) for tool-version management, task running, and environment config via mise.toml."
+}

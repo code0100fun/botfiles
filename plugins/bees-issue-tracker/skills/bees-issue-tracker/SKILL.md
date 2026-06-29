@@ -9,7 +9,7 @@ description: Guide for using bees, a local-first issue tracker (SQLite DB + a co
 
 On a project that uses bees, **bees is the ONLY task tracker** — never use the harness `TaskCreate`/`TodoWrite` (or any todo) tools to track work.
 
-> The binary is `bees`. In a mise-managed project where it isn't on PATH directly, run it as `mise exec -- bees …` (or via the project's mise tasks).
+> The binary is `bees` — invoke it directly (it must be installed and on your PATH).
 
 > Watch the bees CLI specifics: titles are **positional**, priorities are **1–4** (there is no P0), types are `task|bug|feature|epic|story`, and labels are managed via a subcommand (not a `create` flag). The tables below are authoritative for bees 0.4.
 

@@ -1,0 +1,6 @@
+{
+  "name": "dev-workflow",
+  "version": "1.0.0",
+  "description": "A personal cross-codebase development workflow composing the mise, bees-issue-tracker, and commit-message-guide skills with Git.",
+  "dependencies": ["mise", "bees-issue-tracker", "commit-message-guide"]
+}

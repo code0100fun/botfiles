@@ -1,0 +1,5 @@
+{
+  "name": "bees-issue-tracker",
+  "version": "1.0.0",
+  "description": "Local-first issue tracking with the bees CLI — issues as a committed issues.jsonl, epics with dependencies, and the in_progress -> closed lifecycle."
+}

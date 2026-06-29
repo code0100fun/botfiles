@@ -1,0 +1,5 @@
+{
+  "name": "commit-message-guide",
+  "version": "1.0.0",
+  "description": "Well-structured conventional commits — type(scope): subject in imperative mood, bodies only when they add value, and no AI attribution."
+}

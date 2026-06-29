@@ -23,9 +23,24 @@
       "description": "Infrastructure operations skills: Terraform safety, Docker Swarm patterns, Ansible operations, and repeatable deployment philosophy."
     },
     {
-      "name": "workflow-tools",
-      "source": "./plugins/workflow-tools",
-      "description": "Developer workflow skills: commit message conventions, Bees issue tracking, and session completion protocols."
+      "name": "bees-issue-tracker",
+      "source": "./plugins/bees-issue-tracker",
+      "description": "Local-first issue tracking with the bees CLI — issues as a committed issues.jsonl, epics with dependencies, and the in_progress -> closed lifecycle."
+    },
+    {
+      "name": "commit-message-guide",
+      "source": "./plugins/commit-message-guide",
+      "description": "Well-structured conventional commits — type(scope): subject in imperative mood, bodies only when they add value, and no AI attribution."
+    },
+    {
+      "name": "mise",
+      "source": "./plugins/mise",
+      "description": "Using mise (mise-en-place) for tool-version management, task running, and environment config via mise.toml."
+    },
+    {
+      "name": "dev-workflow",
+      "source": "./plugins/dev-workflow",
+      "description": "A personal cross-codebase development workflow composing the mise, bees-issue-tracker, and commit-message-guide skills with Git."
     }
   ]
 }
